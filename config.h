@@ -12,10 +12,10 @@ static const int showsystray        = 1;        /* 0 means no systray */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "JetBrains Mono:size=11", "JoyPixels:pixelsize=11:antialias=true:autohint=true"};
+static const char *fonts[]          = { "JetBrains Mono:size=12", "JoyPixels:pixelsize=12:antialias=true:autohint=true"};
 static const char *copycmd[] = { "xclip", "-selection", "primary", "-o", "|", "xclip", "-selection", "clipboard", "-i", NULL };
 static const char *pastecmd[] = { "xclip", "-selection", "clipboard", "-o", "|", "xclip", "-selection", "primary", "-i", NULL };
-static const char dmenufont[]       = "JetBrains Mono:size=11";
+static const char dmenufont[]       = "JetBrains Mono:size=12";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
