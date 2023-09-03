@@ -74,12 +74,14 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont};
 static const char *termcmd[]  = { "st", NULL };
+static const char *ytfzfcmd[] = { "ytfzf", "-D", NULL};
 
 #include "movestack.c"
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,             			XK_i,      movestack,      {.i = +1 } },
-	{ MODKEY,             			XK_u,      movestack,      {.i = -1 } },
+	{ MODKEY,			XK_y,	   spawn,	   {.v = ytfzfcmd } },
+	{ MODKEY,             		XK_i,      movestack,      {.i = +1 } },
+	{ MODKEY,             		XK_u,      movestack,      {.i = -1 } },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
