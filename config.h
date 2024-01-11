@@ -29,7 +29,7 @@ static char *colors[][3] = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -38,6 +38,7 @@ static const Rule rules[] = {
 	 */
 	/* class                instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
 	{ "TelegramDesktop",    NULL,     NULL,           0,         1,          0,           0,        -1 },
+	{ "Peek",               NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "obs",                NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "Lutris",             NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "firefox",   		NULL,     NULL,           0,         0,          0,          -1,        -1 },
