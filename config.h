@@ -43,6 +43,9 @@ static const Rule rules[] = {
 	{ "Lutris",             NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "firefox",   		NULL,     NULL,           0,         0,          0,          -1,        -1 },
 	{ "St",                 NULL,     NULL,           0,         0,          1,           0,        -1 },
+	{ "xdman",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "Virt-manager",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "Thunar",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
 	{ NULL,                 NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
 };
 
