@@ -47,7 +47,11 @@ static const Rule rules[] = {
 	{ "Virt-manager",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
 	{ "Thunar",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
 	{ "stacer",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
-	{ "mongodb-compass",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "remmina",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "Pavucontrol",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "Timeshift-gtk",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "arander",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "Timeshift-launcher",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
 	{ NULL,                 NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
 };
 
