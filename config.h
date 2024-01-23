@@ -46,6 +46,8 @@ static const Rule rules[] = {
 	{ "xdman",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
 	{ "Virt-manager",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
 	{ "Thunar",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "stacer",		NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
+	{ "mongodb-compass",	NULL,	  NULL,		  0,	     1,		 0,	      0,	-1 },
 	{ NULL,                 NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
 };
 
